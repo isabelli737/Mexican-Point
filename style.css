@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;  /*LIMITA AS CAIXAS DO HTML DENTRO DA PAG DO NAVEGADOR*/
+}
+
+body{}
+
+
+/*FORMATA O FUNDO ONDE VÃO ESTAR OS LINKS*/
+nav{
+    background-color: black;
+    width: 100%;
+    padding: 2rem;
+    text-align: right;
+
+}
+
+/*FORMATA OS LINKS*/
+a{
+    color: #ffffff;
+    font-family: "Roboto",serif;
+    font-weight: 500;
+    text-decoration: none;  /*Linha decorativa*/
+    margin-right:1rem ;
+}
+
+
+img,header{   
+    width: 100%; 
+    background-color:#e5e5e5 ;
+    
+}
+
+
+main, #pag-destaques, #pag-login{
+    padding: 4rem;
+} 
+
+
+main{
+    background-color:#e5e5e5 ;
+}
+
+h1,h2{
+    font-family: 'Kaushan Script', serif;
+    color: green;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+   
+}
+
+p{
+    font-family: 'Roboto',sans-serif;
+    color: #777;
+    text-align: justify;
+    font-weight: 350;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    padding: 20px;  /*adicionei pq achei muito grudado nos card*/
+}
+
+#pag-destaques{
+    background-color:#ffffff ;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 23%;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 10px 10px 10px 10px;
+
+}
+
+.img-card{
+    width: 100%;
+    border-radius: 16px 16px 0 0  ;
+}
+
+.texto-card{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-family: 'Kaushan Script', serif;
+    color: green;
+    font-size: 1.5rem;
+    
+}
+
+#pag-login{
+    background-color:#e5e5e5 ;
+}
+
+form{
+    width: 500px;
+    background-color: #fff;
+    margin: auto ;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+label,input{
+    width: 100%;
+    margin-bottom: 1rem;
+    font-family:'Roboto',sans-serif; ;
+    
+}
+
+label{
+    font-family: 'Roboto',sans-serif;
+    color: #212121;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    
+   
+}
+
+input{
+    font-family: 'Roboto',sans-serif;
+    color: #777;
+    font-weight: 300;
+    font-size: 1.2rem;
+    border: 1px solid #777 ;
+    padding: 1rem;
+    border-radius: 8px;
+   
+   
+}
+
+input[type="submit"],input[type="reset"]{
+    width: 215px;
+    background-color: green;
+    color: #fff;
+    border: none;
+   /*Como colocar distância entre eles e os campos*/
+}
+
+input[type="reset"]{
+    background-color: #212121;
+    color: #green;
+}
+
+
+footer{
+    background-color:#212121 ;
+    padding: 1rem;
+}
+
+footer p{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
